@@ -107,7 +107,7 @@ class Storage <T extends WarehouseItem>{
 class WarehouseItemManagement{
     public static void main(String[] args) {
         Electronics electronics1 = new Electronics("Smartphone", 101, "Samsung");
-        Groceries groceries1 = new Groceries("Milk", 201, "2025-03-01");
+        Groceries groceries1 = new Groceries("Milk", 201, "24-11-2026");
         Furniture furniture1 = new Furniture("Chair", 301, "Wood");
 
         // Create a Storage object for WarehouseItemItems
