@@ -1,4 +1,4 @@
-package problems.queue;
+package problems.queueinterface;
 import java.util.Collections;
 import java.util.PriorityQueue;
 
