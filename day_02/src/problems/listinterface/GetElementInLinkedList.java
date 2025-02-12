@@ -13,7 +13,7 @@ public class GetElementInLinkedList {
         ll.add('D');
         ll.add('E');
 //        ListIterator<Character> it = ll.listIterator(ll.size()-1);
-        int n=2;
+        int n=4;
         int i=0;
         var first = ll.iterator();
         var second = ll.iterator();

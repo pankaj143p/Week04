@@ -1,5 +1,4 @@
 package problems.listinterface;
-
 import java.util.LinkedList;
 import java.util.ArrayList;
 
