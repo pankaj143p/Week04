@@ -11,7 +11,8 @@ public class CheckEquals {
         HashSet<Integer> hs2 = new HashSet<>();
         hs1.addAll(Arrays.asList(arr1));
         hs2.addAll(Arrays.asList(arr2));
-        System.out.println();
+        hs1.addAll(hs1);
+        System.out.println((hs1.size()==hs2.size()) ? "Equals:" : "not Equals:");
 
     }
 }
