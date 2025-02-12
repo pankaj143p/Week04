@@ -6,7 +6,7 @@ public class GenerateBinary {
         public static List<String> generateBinary(int n) {
             List<String> ans = new ArrayList<>();
             Queue<String> q = new LinkedList<>();
-            queue.offer("1");
+            q.offer("1");
             for(int i=1; i <=n; i++) {
                 String cur=q.poll();
                 ans.add(cur);

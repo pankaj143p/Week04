@@ -23,7 +23,7 @@ public class SetToSortedList {
 
     }
     public static void main(String[] args) {
-        Integer arr[] = {5,3,9,1};
+        Integer arr[] = {5,3,9,11,0,-2};
         HashSet<Integer> hs = new HashSet<>();
         hs.addAll(Arrays.asList(arr));
         sortSet(hs);
