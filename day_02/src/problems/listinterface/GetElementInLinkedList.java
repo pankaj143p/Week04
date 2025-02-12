@@ -12,16 +12,24 @@ public class GetElementInLinkedList {
         ll.add('C');
         ll.add('D');
         ll.add('E');
-        ListIterator<Character> it = ll.listIterator(ll.size()-1);
+//        ListIterator<Character> it = ll.listIterator(ll.size()-1);
         int n=2;
         int i=0;
-        n=n-1;
-        char ch = ll.get(0);
-        while(it.hasPrevious() && n>0){
-            n--;
-            it.previous();
+        var first = ll.iterator();
+        var second = ll.iterator();
+        while(i<n && first.hasNext()){
+            first.next();
+            i=i+1;
         }
-        System.out.println(it.next());
+        if(i<n){
+            System.out.println("given value of n is greater than list size : ");
+            return ;
+        }
+        while(first.hasNext()){
+            first.next();
+            second.next();
+        }
+        System.out.println(second.next());
 
     }
 }

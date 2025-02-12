@@ -6,6 +6,7 @@ import java.util.ArrayList;
 public class ReverseList {
     public static void reverseLinkedList(LinkedList<Integer> ll ){
         int i=0;
+
         while(i<ll.size()/2){
             int temp=ll.get(i);
             ll.set(i,ll.get(ll.size()-1-i));
