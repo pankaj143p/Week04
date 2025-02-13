@@ -10,7 +10,7 @@ public class MergeMaps {
             int val=itr.getValue();
             char key=itr.getKey();
             if(hm1.containsKey(key)){
-                hm1.put(key, val+hm1.get(key)+1);
+                hm1.put(key, val+hm1.get(key));
             }else{
                 hm1.put(key,val);
             }
