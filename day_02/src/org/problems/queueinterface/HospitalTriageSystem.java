@@ -23,7 +23,7 @@ public class HospitalTriageSystem{
         while(!pq.isEmpty()){
             Pair p = pq.poll();
             System.out.print(p.name+" ");
-            System.out.print(p.priority+" ");
+//            System.out.print(p.priority+" ");
             System.out.println();
 
         }
@@ -35,6 +35,8 @@ public class HospitalTriageSystem{
       pq.offer(new Pair("John", 3));
       pq.offer(new Pair("Alice", 5));
       pq.offer(new Pair("Bob",2));
+      pq.offer(new Pair("Unknown",1));
+
       arrangeBasedPriority(pq);
     }
 }

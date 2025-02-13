@@ -8,20 +8,20 @@
     <version>1.0-SNAPSHOT</version>
 
     <dependencies>
-        <!-- JUnit 5 Dependency -->
         <dependency>
             <groupId>org.junit.jupiter</groupId>
             <artifactId>junit-jupiter-api</artifactId>
-            <version>5.8.2</version>
+            <version>5.7.1</version> <!-- You can use a different version -->
             <scope>test</scope>
         </dependency>
         <dependency>
             <groupId>org.junit.jupiter</groupId>
             <artifactId>junit-jupiter-engine</artifactId>
-            <version>5.8.2</version>
+            <version>5.7.1</version>
             <scope>test</scope>
         </dependency>
     </dependencies>
+
 
     <build>
         <plugins>
