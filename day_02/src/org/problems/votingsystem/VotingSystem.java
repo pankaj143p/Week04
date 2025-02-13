@@ -3,12 +3,7 @@ import java.util.HashMap;
 import java.util.LinkedHashMap;
 import java.util.TreeMap;
 
-/*
- Description: Design a system where:
-Votes are stored in a HashMap (Candidate -> Votes).
-TreeMap is used to display the results in sorted order.
-LinkedHashMap is used to maintain the order of votes.
- */
+
 
 public class VotingSystem {
     private static HashMap<String, Integer> storeVotes = new HashMap<>();
