@@ -1,4 +1,4 @@
-package problems.setinterface;
+package org.problems.setinterface;
 
 import java.util.ArrayList;
 import java.util.Arrays;

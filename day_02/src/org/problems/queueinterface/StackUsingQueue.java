@@ -1,4 +1,4 @@
-package problems.queueinterface;
+package org.problems.queueinterface;
 
 import java.util.LinkedList;
 import java.util.Queue;

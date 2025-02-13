@@ -1,4 +1,4 @@
-package problems.listinterface;
+package org.problems.listinterface;
 
 import java.util.List;
 import java.util.ArrayList;

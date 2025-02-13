@@ -1,6 +1,5 @@
-package problems.listinterface;
+package org.problems.listinterface;
 
-import java.util.ListIterator;
 import java.util.LinkedList;
 import java.util.List;
 
