@@ -1,4 +1,4 @@
-package problems.checkedexception;
+package problems.unchekedexception;
 
 import java.util.Scanner;
 
