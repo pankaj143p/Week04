@@ -20,6 +20,7 @@ public class InvalidAgeExceptionHandle {
             System.out.println("Enter you age : ");
             int age=sc.nextInt();
             validateAge(age);
+            System.out.println("Access granted: ");
         } catch (InvalidAgeException e) {
             System.out.println("caught Invalid age exception : " + e.getMessage());
         }
@@ -27,8 +28,6 @@ public class InvalidAgeExceptionHandle {
     public static void validateAge(int age) throws InvalidAgeException {
         if (age < 18) {
             throw new InvalidAgeException("Age must be 18 or older");
-        }else{
-            System.out.println("Access granted!");
         }
     }
 
