@@ -1,12 +1,12 @@
-package problems.regex;
+package problems.regex.extracts;
 
 import java.util.Scanner;
 import java.util.regex.Matcher;
 import java.util.regex.Pattern;
 
-public class PrintDates {
-    public static void possibleDates(String text){
-        String regex = "\\b\\d{2}/\\d{2}/\\d{4}\\b";
+public class PrintAllUrls {
+    public static void possibleUrls(String text){
+        String regex = "http[s]?://[a-zA-Z0-9.-]+(?:/[a-zA-Z0-9&?%=.-]*)?";
         Pattern p = Pattern.compile(regex);
         Matcher m = p.matcher(text);
         while(m.find()){
@@ -19,7 +19,7 @@ public class PrintDates {
         while(1==1){
             System.out.println("Enter your text: ");
             String text=sc.nextLine();
-            possibleDates(text);
+            possibleUrls(text);
             System.out.println("Enter y/n : y for exit n for further check :");
             char choice = sc.next().charAt(0);
             if(choice=='y'){
