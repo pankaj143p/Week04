@@ -15,7 +15,6 @@ public class FindAllProgrammingLanguage {
             if (text.matches(".*" + regex + ".*")) {
                 matchedWords.append(pl).append(" ");
             }
-            text = text.replaceAll(regex,"****");
         }
       return matchedWords.toString();
     }
