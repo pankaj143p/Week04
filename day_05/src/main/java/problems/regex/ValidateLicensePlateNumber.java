@@ -4,7 +4,7 @@ import java.util.regex.Matcher;
 import java.util.regex.Pattern;
 
 public class ValidateLicensePlateNumber {
-    public static boolean isValidUserName(String userName){
+    public static boolean validLicenceNumberPlate(String userName){
         String regex = "^[A-Z]{2}[0-9]{4}$";
         Pattern p = Pattern.compile(regex);
         Matcher m = p.matcher(userName);
@@ -12,8 +12,8 @@ public class ValidateLicensePlateNumber {
         return flag;
     }
     public static void main(String[] args) {
-        System.out.println(isValidUserName("AB1245"));
-        System.out.println(isValidUserName("A12332"));
-        System.out.println(isValidUserName("AB12383"));
+        System.out.println(validLicenceNumberPlate("AB1245"));
+        System.out.println(validLicenceNumberPlate("A12332"));
+        System.out.println(validLicenceNumberPlate("AB12383"));
     }
 }
