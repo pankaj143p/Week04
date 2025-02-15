@@ -4,10 +4,10 @@ import java.util.regex.Matcher;
 import java.util.regex.Pattern;
 
 public class ValidateLicensePlateNumber {
-    public static boolean validLicenceNumberPlate(String userName){
+    public static boolean validLicenceNumberPlate(String numberPlate){
         String regex = "^[A-Z]{2}[0-9]{4}$";
         Pattern p = Pattern.compile(regex);
-        Matcher m = p.matcher(userName);
+        Matcher m = p.matcher(numberPlate);
         boolean flag=m.matches();
         return flag;
     }

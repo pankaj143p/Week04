@@ -12,7 +12,7 @@ public class ValidUserName {
         return flag;
     }
     public static void main(String[] args) {
-        System.out.println(isValidUserName("User123_"));
+        System.out.println(isValidUserName("user123_"));
         System.out.println(isValidUserName("12User123"));
         System.out.println(isValidUserName("Use"));
     }
