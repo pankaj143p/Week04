@@ -1,7 +1,6 @@
 package problems.annotations.repeatableannotation;
 
 import java.lang.reflect.Method;
-
 /*
 Exercise 5: Create and Use a Repeatable Annotation
 ✅ Problem Statement:
@@ -27,7 +26,7 @@ public class BugTracker {
        if(m.isAnnotationPresent(BugReports.class)){
            BugReports br = m.getAnnotation(BugReports.class);
            for(BugReport brit : br.value()){
-               System.out.println("Bug Report "+brit.description());
+               System.out.println("Bug Report: "+brit.description());
            }
        }
     }
